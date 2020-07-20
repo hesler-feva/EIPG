@@ -1,0 +1,94 @@
+C:\Users\Leonardo Alvarado\Desktop\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.deps.json
+C:\Users\Leonardo Alvarado\Desktop\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\Leonardo Alvarado\Desktop\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\Leonardo Alvarado\Desktop\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csprojAssemblyReference.cache
+C:\Users\Leonardo Alvarado\Desktop\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfoInputs.cache
+C:\Users\Leonardo Alvarado\Desktop\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfo.cs
+C:\Users\Leonardo Alvarado\Desktop\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\Leonardo Alvarado\Desktop\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\FEVA\Downloads\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.deps.json
+C:\Users\FEVA\Downloads\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\FEVA\Downloads\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\FEVA\Downloads\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csprojAssemblyReference.cache
+C:\Users\FEVA\Downloads\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csproj.CoreCompileInputs.cache
+C:\Users\FEVA\Downloads\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfoInputs.cache
+C:\Users\FEVA\Downloads\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfo.cs
+C:\Users\FEVA\Downloads\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\FEVA\Downloads\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\rjozz\Desktop\I periodo 2020\Prueba y documentacion\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.deps.json
+C:\Users\rjozz\Desktop\I periodo 2020\Prueba y documentacion\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\rjozz\Desktop\I periodo 2020\Prueba y documentacion\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\rjozz\Desktop\I periodo 2020\Prueba y documentacion\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csprojAssemblyReference.cache
+C:\Users\rjozz\Desktop\I periodo 2020\Prueba y documentacion\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csproj.CoreCompileInputs.cache
+C:\Users\rjozz\Desktop\I periodo 2020\Prueba y documentacion\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfoInputs.cache
+C:\Users\rjozz\Desktop\I periodo 2020\Prueba y documentacion\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfo.cs
+C:\Users\rjozz\Desktop\I periodo 2020\Prueba y documentacion\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\rjozz\Desktop\I periodo 2020\Prueba y documentacion\EIPG FINAL 16-02-2020\EIPG FINAL\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\User\Documents\UNICAH\1P 2020\Prueba\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.deps.json
+C:\Users\User\Documents\UNICAH\1P 2020\Prueba\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\User\Documents\UNICAH\1P 2020\Prueba\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\User\Documents\UNICAH\1P 2020\Prueba\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csprojAssemblyReference.cache
+C:\Users\User\Documents\UNICAH\1P 2020\Prueba\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfoInputs.cache
+C:\Users\User\Documents\UNICAH\1P 2020\Prueba\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfo.cs
+C:\Users\User\Documents\UNICAH\1P 2020\Prueba\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\User\Documents\UNICAH\1P 2020\Prueba\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\Luis\Desktop\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.deps.json
+C:\Users\Luis\Desktop\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\Luis\Desktop\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\Luis\Desktop\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csprojAssemblyReference.cache
+C:\Users\Luis\Desktop\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Desktop\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfoInputs.cache
+C:\Users\Luis\Desktop\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfo.cs
+C:\Users\Luis\Desktop\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\Luis\Desktop\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\FEVA\Documents\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.deps.json
+C:\Users\FEVA\Documents\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\FEVA\Documents\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\FEVA\Documents\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csprojAssemblyReference.cache
+C:\Users\FEVA\Documents\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csproj.CoreCompileInputs.cache
+C:\Users\FEVA\Documents\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfoInputs.cache
+C:\Users\FEVA\Documents\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfo.cs
+C:\Users\FEVA\Documents\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\FEVA\Documents\Proyecto EIPG\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\Javii Pey\Desktop\Proyecto EIPG Hesler\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.deps.json
+C:\Users\Javii Pey\Desktop\Proyecto EIPG Hesler\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\Javii Pey\Desktop\Proyecto EIPG Hesler\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\Javii Pey\Desktop\Proyecto EIPG Hesler\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csprojAssemblyReference.cache
+C:\Users\Javii Pey\Desktop\Proyecto EIPG Hesler\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfoInputs.cache
+C:\Users\Javii Pey\Desktop\Proyecto EIPG Hesler\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfo.cs
+C:\Users\Javii Pey\Desktop\Proyecto EIPG Hesler\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\Javii Pey\Desktop\Proyecto EIPG Hesler\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\Javii Pey\Desktop\Proyecto EIPG 23-03-2020\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.deps.json
+C:\Users\Javii Pey\Desktop\Proyecto EIPG 23-03-2020\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\Javii Pey\Desktop\Proyecto EIPG 23-03-2020\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\Javii Pey\Desktop\Proyecto EIPG 23-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csprojAssemblyReference.cache
+C:\Users\Javii Pey\Desktop\Proyecto EIPG 23-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csproj.CoreCompileInputs.cache
+C:\Users\Javii Pey\Desktop\Proyecto EIPG 23-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfoInputs.cache
+C:\Users\Javii Pey\Desktop\Proyecto EIPG 23-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfo.cs
+C:\Users\Javii Pey\Desktop\Proyecto EIPG 23-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\Javii Pey\Desktop\Proyecto EIPG 23-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\Javii Pey\Desktop\Proyecto EIPG TRAVESIANDO\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.deps.json
+C:\Users\Javii Pey\Desktop\Proyecto EIPG TRAVESIANDO\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\Javii Pey\Desktop\Proyecto EIPG TRAVESIANDO\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\Javii Pey\Desktop\Proyecto EIPG TRAVESIANDO\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csprojAssemblyReference.cache
+C:\Users\Javii Pey\Desktop\Proyecto EIPG TRAVESIANDO\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfoInputs.cache
+C:\Users\Javii Pey\Desktop\Proyecto EIPG TRAVESIANDO\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfo.cs
+C:\Users\Javii Pey\Desktop\Proyecto EIPG TRAVESIANDO\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\Javii Pey\Desktop\Proyecto EIPG TRAVESIANDO\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\FEVA\Pictures\Proyecto EIPG 24-03-2020\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.deps.json
+C:\Users\FEVA\Pictures\Proyecto EIPG 24-03-2020\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\FEVA\Pictures\Proyecto EIPG 24-03-2020\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\FEVA\Pictures\Proyecto EIPG 24-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csprojAssemblyReference.cache
+C:\Users\FEVA\Pictures\Proyecto EIPG 24-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csproj.CoreCompileInputs.cache
+C:\Users\FEVA\Pictures\Proyecto EIPG 24-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfoInputs.cache
+C:\Users\FEVA\Pictures\Proyecto EIPG 24-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfo.cs
+C:\Users\FEVA\Pictures\Proyecto EIPG 24-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\FEVA\Pictures\Proyecto EIPG 24-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\Javii Pey\Desktop\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.deps.json
+C:\Users\Javii Pey\Desktop\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\Javii Pey\Desktop\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\Javii Pey\Desktop\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csprojAssemblyReference.cache
+C:\Users\Javii Pey\Desktop\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfoInputs.cache
+C:\Users\Javii Pey\Desktop\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfo.cs
+C:\Users\Javii Pey\Desktop\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\Javii Pey\Desktop\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.pdb

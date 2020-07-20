@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{278A4CC1-C44A-4E56-8635-F8947AC2393E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Proyecto_EIPG</RootNamespace>
+    <AssemblyName>Proyecto EIPG</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConexionBD.cs" />
+    <Compile Include="Egresos_Varios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Egresos_Varios.Designer.cs">
+      <DependentUpon>Egresos_Varios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="finalDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>finalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteAlumnosGrado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteAlumnosGrado.Designer.cs">
+      <DependentUpon>ReporteAlumnosGrado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteriaEmpleadoAct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteriaEmpleadoAct.Designer.cs">
+      <DependentUpon>ReporteriaEmpleadoAct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteriaAlumnoAct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteriaAlumnoAct.Designer.cs">
+      <DependentUpon>ReporteriaAlumnoAct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingresar_Alumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingresar_Alumno.Designer.cs">
+      <DependentUpon>Ingresar_Alumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingresar_Empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingresar_Empleado.Designer.cs">
+      <DependentUpon>Ingresar_Empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingresos_Conta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingresos_Conta.Designer.cs">
+      <DependentUpon>Ingresos_Conta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingresos_Matricula_Mensualidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingresos_Matricula_Mensualidad.Designer.cs">
+      <DependentUpon>Ingresos_Matricula_Mensualidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento_Academico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento_Academico.Designer.cs">
+      <DependentUpon>Mantenimiento_Academico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Admin.Designer.cs">
+      <DependentUpon>Menu_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_Contabilidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Contabilidad.Designer.cs">
+      <DependentUpon>Menu_Contabilidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Olvido_Contraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Olvido_Contraseña.Designer.cs">
+      <DependentUpon>Olvido_Contraseña.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Otros_ingresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Otros_ingresos.Designer.cs">
+      <DependentUpon>Otros_ingresos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="panel_cargar_mensualidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="panel_cargar_mensualidad.Designer.cs">
+      <DependentUpon>panel_cargar_mensualidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel_carrera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panel_carrera.Designer.cs">
+      <DependentUpon>Panel_carrera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimientos_Almacenados.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReporteriaAlumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteriaAlumnos.Designer.cs">
+      <DependentUpon>ReporteriaAlumnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reporteriaegresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reporteriaegresos.Designer.cs">
+      <DependentUpon>reporteriaegresos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reporteriageneral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reporteriageneral.Designer.cs">
+      <DependentUpon>reporteriageneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reporteriaingresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reporteriaingresos.Designer.cs">
+      <DependentUpon>reporteriaingresos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporteria_Alumnos_Grados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporteria_Alumnos_Grados.Designer.cs">
+      <DependentUpon>Reporteria_Alumnos_Grados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reporteria_empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reporteria_empleados.Designer.cs">
+      <DependentUpon>reporteria_empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes_Contables_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Contables_Admin.Designer.cs">
+      <DependentUpon>Reportes_Contables_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes_Egre_Conta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Egre_Conta.Designer.cs">
+      <DependentUpon>Reportes_Egre_Conta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte_Alumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte_Alumnos.Designer.cs">
+      <DependentUpon>Reporte_Alumnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte_Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte_Empleados.Designer.cs">
+      <DependentUpon>Reporte_Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte_General_Conta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte_General_Conta.Designer.cs">
+      <DependentUpon>Reporte_General_Conta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte_Ingre_Conta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte_Ingre_Conta.Designer.cs">
+      <DependentUpon>Reporte_Ingre_Conta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaccion_Mat_Mensu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaccion_Mat_Mensu.Designer.cs">
+      <DependentUpon>Transaccion_Mat_Mensu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Egresos_Varios.resx">
+      <DependentUpon>Egresos_Varios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteAlumnosGrado.rdlc" />
+    <EmbeddedResource Include="ReporteAlumnosGrado.resx">
+      <DependentUpon>ReporteAlumnosGrado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteriaEmpleadoAct.resx">
+      <DependentUpon>ReporteriaEmpleadoAct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteriaEmpleadoActivoInactivo.rdlc" />
+    <EmbeddedResource Include="ReporteriaAlumnoAct.resx">
+      <DependentUpon>ReporteriaAlumnoAct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingresar_Alumno.resx">
+      <DependentUpon>Ingresar_Alumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingresar_Empleado.resx">
+      <DependentUpon>Ingresar_Empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingresos_Conta.resx">
+      <DependentUpon>Ingresos_Conta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingresos_Matricula_Mensualidad.resx">
+      <DependentUpon>Ingresos_Matricula_Mensualidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento_Academico.resx">
+      <DependentUpon>Mantenimiento_Academico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Admin.resx">
+      <DependentUpon>Menu_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Contabilidad.resx">
+      <DependentUpon>Menu_Contabilidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Olvido_Contraseña.resx">
+      <DependentUpon>Olvido_Contraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Otros_ingresos.resx">
+      <DependentUpon>Otros_ingresos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="panel_cargar_mensualidad.resx">
+      <DependentUpon>panel_cargar_mensualidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel_carrera.resx">
+      <DependentUpon>Panel_carrera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="reportalumno.rdlc" />
+    <EmbeddedResource Include="ReporteAlumnoActivoInactivo.rdlc" />
+    <EmbeddedResource Include="reportegre.rdlc" />
+    <EmbeddedResource Include="reportemple.rdlc" />
+    <EmbeddedResource Include="ReporteriaAlumnos.resx">
+      <DependentUpon>ReporteriaAlumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reporteriaegresos.resx">
+      <DependentUpon>reporteriaegresos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reporteriageneral.resx">
+      <DependentUpon>reporteriageneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reporteriaingres.rdlc" />
+    <EmbeddedResource Include="reporteriaingresos.resx">
+      <DependentUpon>reporteriaingresos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporteria_Alumnos_Grados.resx">
+      <DependentUpon>Reporteria_Alumnos_Grados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reporteria_empleados.resx">
+      <DependentUpon>reporteria_empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Contables_Admin.resx">
+      <DependentUpon>Reportes_Contables_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Egre_Conta.resx">
+      <DependentUpon>Reportes_Egre_Conta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte_Alumnos.resx">
+      <DependentUpon>Reporte_Alumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte_Empleados.resx">
+      <DependentUpon>Reporte_Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte_General_Conta.resx">
+      <DependentUpon>Reporte_General_Conta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte_Ingre_Conta.resx">
+      <DependentUpon>Reporte_Ingre_Conta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportgeneral.rdlc" />
+    <EmbeddedResource Include="Transaccion_Mat_Mensu.resx">
+      <DependentUpon>Transaccion_Mat_Mensu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="finalDataSet.xsc">
+      <DependentUpon>finalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="finalDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>finalDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="finalDataSet.xss">
+      <DependentUpon>finalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Datos_usuarios\Datos_usuarios.csproj">
+      <Project>{9ceb4b73-85f6-4b13-9184-4a2f3a55d9fa}</Project>
+      <Name>Datos_usuarios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
