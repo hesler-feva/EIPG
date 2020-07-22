@@ -49,7 +49,7 @@ namespace Proyecto_EIPG
         //boton regresar
         private void Btn_Regresar_Click(object sender, EventArgs e)
         {
-            Menu_Admin ma = new Menu_Admin();//instancia con el menu administrativo
+            menu ma = new menu();//instancia con el menu director
             this.Close();//cierra esta ventana 
             ma.Show();//abre el menu administrativo
         }

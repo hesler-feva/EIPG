@@ -52,5 +52,10 @@ namespace Proyecto_EIPG
             Lbl_Nombre_conta.Text = cache_usuario.Usuario;
             Lbl_Identidad_Conta.Text = cache_usuario.Id;
         }
+
+        private void Lbl_Identidad_Conta_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

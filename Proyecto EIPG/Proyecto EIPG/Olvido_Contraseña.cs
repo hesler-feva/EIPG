@@ -29,7 +29,7 @@ namespace Proyecto_EIPG
         private void btnRecuperarContrasena_Click(object sender, EventArgs e)
         {
             //hace la instancia con el servidor de sql
-            SqlConnection sc = new SqlConnection("Data Source= (local);Initial Catalog=final;Integrated Security=True");
+            SqlConnection sc = new SqlConnection("Data Source= DESKTOP-KDTCO0R\\SQLEXPRESS;Initial Catalog=final;Integrated Security=True");
             {
 
 
@@ -67,7 +67,7 @@ namespace Proyecto_EIPG
             Random rd = new Random(DateTime.Now.Millisecond);//hace un radom con la fecha
             int nuevaContrasena = rd.Next(100000, 999999); //crea la nueva contraseña
             //instancia con el servidor de sql
-            SqlConnection sc = new SqlConnection("Data Source= (local);Initial Catalog=final;Integrated Security=True");
+            SqlConnection sc = new SqlConnection("Data Source= DESKTOP-KDTCO0R\\SQLEXPRESS;Initial Catalog=final;Integrated Security=True");
 
 
             SqlCommand cmd = new SqlCommand("nuevacontraseña", sc);//comando de sql

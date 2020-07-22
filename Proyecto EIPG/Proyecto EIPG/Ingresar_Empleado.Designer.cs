@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ingresar_Empleado));
             this.pnlIngreso_Emple = new System.Windows.Forms.Panel();
             this.Btn_Regresar = new System.Windows.Forms.Button();
             this.Btn_Actualizar = new System.Windows.Forms.Button();
@@ -83,14 +82,12 @@
             this.Lbl_Cargo = new System.Windows.Forms.Label();
             this.Lbl_Identidad_Admin = new System.Windows.Forms.Label();
             this.Lbl_Nombre_admin = new System.Windows.Forms.Label();
-            this.pbxUsuario = new System.Windows.Forms.PictureBox();
             this.Lbl_Admisiones = new System.Windows.Forms.Label();
             this.Lbl_EIPG = new System.Windows.Forms.Label();
             this.error = new System.Windows.Forms.ErrorProvider(this.components);
             this.pnlIngreso_Emple.SuspendLayout();
             this.Gbx_Post_Grado.SuspendLayout();
             this.PnlInfo_Usuario.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxUsuario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.error)).BeginInit();
             this.SuspendLayout();
             // 
@@ -147,7 +144,7 @@
             this.pnlIngreso_Emple.Controls.Add(this.Lbl_EIPG);
             this.pnlIngreso_Emple.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlIngreso_Emple.Location = new System.Drawing.Point(0, 0);
-            this.pnlIngreso_Emple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlIngreso_Emple.Margin = new System.Windows.Forms.Padding(4);
             this.pnlIngreso_Emple.Name = "pnlIngreso_Emple";
             this.pnlIngreso_Emple.Size = new System.Drawing.Size(1067, 649);
             this.pnlIngreso_Emple.TabIndex = 1;
@@ -156,7 +153,7 @@
             // Btn_Regresar
             // 
             this.Btn_Regresar.Location = new System.Drawing.Point(404, 606);
-            this.Btn_Regresar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_Regresar.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_Regresar.Name = "Btn_Regresar";
             this.Btn_Regresar.Size = new System.Drawing.Size(100, 28);
             this.Btn_Regresar.TabIndex = 99;
@@ -167,7 +164,7 @@
             // Btn_Actualizar
             // 
             this.Btn_Actualizar.Location = new System.Drawing.Point(632, 606);
-            this.Btn_Actualizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_Actualizar.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_Actualizar.Name = "Btn_Actualizar";
             this.Btn_Actualizar.Size = new System.Drawing.Size(100, 28);
             this.Btn_Actualizar.TabIndex = 98;
@@ -177,8 +174,8 @@
             // 
             // Mask_NumeroFijo_Emp
             // 
-            this.Mask_NumeroFijo_Emp.Location = new System.Drawing.Point(73, 415);
-            this.Mask_NumeroFijo_Emp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Mask_NumeroFijo_Emp.Location = new System.Drawing.Point(73, 416);
+            this.Mask_NumeroFijo_Emp.Margin = new System.Windows.Forms.Padding(4);
             this.Mask_NumeroFijo_Emp.Mask = "00-00-00-00";
             this.Mask_NumeroFijo_Emp.Name = "Mask_NumeroFijo_Emp";
             this.Mask_NumeroFijo_Emp.ShortcutsEnabled = false;
@@ -196,7 +193,7 @@
             "Casado",
             "Soltero"});
             this.Cmb_Estado_Civil_.Location = new System.Drawing.Point(291, 415);
-            this.Cmb_Estado_Civil_.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Cmb_Estado_Civil_.Margin = new System.Windows.Forms.Padding(4);
             this.Cmb_Estado_Civil_.MaxLength = 10;
             this.Cmb_Estado_Civil_.Name = "Cmb_Estado_Civil_";
             this.Cmb_Estado_Civil_.Size = new System.Drawing.Size(196, 24);
@@ -205,8 +202,8 @@
             // 
             // Mask_No_Identidad_Emple
             // 
-            this.Mask_No_Identidad_Emple.Location = new System.Drawing.Point(72, 207);
-            this.Mask_No_Identidad_Emple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Mask_No_Identidad_Emple.Location = new System.Drawing.Point(72, 204);
+            this.Mask_No_Identidad_Emple.Margin = new System.Windows.Forms.Padding(4);
             this.Mask_No_Identidad_Emple.Mask = "0000-0000-00000";
             this.Mask_No_Identidad_Emple.Name = "Mask_No_Identidad_Emple";
             this.Mask_No_Identidad_Emple.ShortcutsEnabled = false;
@@ -220,7 +217,7 @@
             // Lbl_Usuario_Emple
             // 
             this.Lbl_Usuario_Emple.AutoSize = true;
-            this.Lbl_Usuario_Emple.Location = new System.Drawing.Point(647, 572);
+            this.Lbl_Usuario_Emple.Location = new System.Drawing.Point(647, 575);
             this.Lbl_Usuario_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Usuario_Emple.Name = "Lbl_Usuario_Emple";
             this.Lbl_Usuario_Emple.Size = new System.Drawing.Size(57, 17);
@@ -230,7 +227,7 @@
             // lblContrasena_Emple
             // 
             this.lblContrasena_Emple.AutoSize = true;
-            this.lblContrasena_Emple.Location = new System.Drawing.Point(855, 572);
+            this.lblContrasena_Emple.Location = new System.Drawing.Point(855, 575);
             this.lblContrasena_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblContrasena_Emple.Name = "lblContrasena_Emple";
             this.lblContrasena_Emple.Size = new System.Drawing.Size(81, 17);
@@ -239,8 +236,8 @@
             // 
             // Txt_Contraseña_Emple
             // 
-            this.Txt_Contraseña_Emple.Location = new System.Drawing.Point(797, 544);
-            this.Txt_Contraseña_Emple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_Contraseña_Emple.Location = new System.Drawing.Point(798, 549);
+            this.Txt_Contraseña_Emple.Margin = new System.Windows.Forms.Padding(4);
             this.Txt_Contraseña_Emple.MaxLength = 32;
             this.Txt_Contraseña_Emple.Name = "Txt_Contraseña_Emple";
             this.Txt_Contraseña_Emple.PasswordChar = '*';
@@ -254,8 +251,8 @@
             // 
             // Txt_Usuario_Emple
             // 
-            this.Txt_Usuario_Emple.Location = new System.Drawing.Point(579, 544);
-            this.Txt_Usuario_Emple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_Usuario_Emple.Location = new System.Drawing.Point(579, 549);
+            this.Txt_Usuario_Emple.Margin = new System.Windows.Forms.Padding(4);
             this.Txt_Usuario_Emple.MaxLength = 76;
             this.Txt_Usuario_Emple.Name = "Txt_Usuario_Emple";
             this.Txt_Usuario_Emple.ShortcutsEnabled = false;
@@ -279,8 +276,8 @@
             // 
             this.Cmb_Nivel_Acceso_Emple.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.Cmb_Nivel_Acceso_Emple.FormattingEnabled = true;
-            this.Cmb_Nivel_Acceso_Emple.Location = new System.Drawing.Point(689, 495);
-            this.Cmb_Nivel_Acceso_Emple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Cmb_Nivel_Acceso_Emple.Location = new System.Drawing.Point(689, 497);
+            this.Cmb_Nivel_Acceso_Emple.Margin = new System.Windows.Forms.Padding(4);
             this.Cmb_Nivel_Acceso_Emple.Name = "Cmb_Nivel_Acceso_Emple";
             this.Cmb_Nivel_Acceso_Emple.Size = new System.Drawing.Size(196, 24);
             this.Cmb_Nivel_Acceso_Emple.TabIndex = 19;
@@ -295,7 +292,7 @@
             "Femenino",
             "Masculino"});
             this.Cmb_Genero_Emple.Location = new System.Drawing.Point(73, 363);
-            this.Cmb_Genero_Emple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Cmb_Genero_Emple.Margin = new System.Windows.Forms.Padding(4);
             this.Cmb_Genero_Emple.Name = "Cmb_Genero_Emple";
             this.Cmb_Genero_Emple.Size = new System.Drawing.Size(129, 24);
             this.Cmb_Genero_Emple.TabIndex = 6;
@@ -304,7 +301,7 @@
             // Lbl_Estado_Empleado
             // 
             this.Lbl_Estado_Empleado.AutoSize = true;
-            this.Lbl_Estado_Empleado.Location = new System.Drawing.Point(607, 475);
+            this.Lbl_Estado_Empleado.Location = new System.Drawing.Point(607, 472);
             this.Lbl_Estado_Empleado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Estado_Empleado.Name = "Lbl_Estado_Empleado";
             this.Lbl_Estado_Empleado.Size = new System.Drawing.Size(142, 17);
@@ -315,8 +312,8 @@
             // 
             this.Cmb_Estado_Empleado_.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.Cmb_Estado_Empleado_.FormattingEnabled = true;
-            this.Cmb_Estado_Empleado_.Location = new System.Drawing.Point(579, 443);
-            this.Cmb_Estado_Empleado_.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Cmb_Estado_Empleado_.Location = new System.Drawing.Point(579, 445);
+            this.Cmb_Estado_Empleado_.Margin = new System.Windows.Forms.Padding(4);
             this.Cmb_Estado_Empleado_.Name = "Cmb_Estado_Empleado_";
             this.Cmb_Estado_Empleado_.Size = new System.Drawing.Size(196, 24);
             this.Cmb_Estado_Empleado_.TabIndex = 17;
@@ -325,7 +322,7 @@
             // Lbl_Salario_Emple
             // 
             this.Lbl_Salario_Emple.AutoSize = true;
-            this.Lbl_Salario_Emple.Location = new System.Drawing.Point(881, 475);
+            this.Lbl_Salario_Emple.Location = new System.Drawing.Point(881, 472);
             this.Lbl_Salario_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Salario_Emple.Name = "Lbl_Salario_Emple";
             this.Lbl_Salario_Emple.Size = new System.Drawing.Size(52, 17);
@@ -334,8 +331,8 @@
             // 
             // Txt_Salario_Emple
             // 
-            this.Txt_Salario_Emple.Location = new System.Drawing.Point(811, 444);
-            this.Txt_Salario_Emple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_Salario_Emple.Location = new System.Drawing.Point(811, 446);
+            this.Txt_Salario_Emple.Margin = new System.Windows.Forms.Padding(4);
             this.Txt_Salario_Emple.MaxLength = 5;
             this.Txt_Salario_Emple.Name = "Txt_Salario_Emple";
             this.Txt_Salario_Emple.ShortcutsEnabled = false;
@@ -348,7 +345,7 @@
             // Lbl_Experiencia_Emple
             // 
             this.Lbl_Experiencia_Emple.AutoSize = true;
-            this.Lbl_Experiencia_Emple.Location = new System.Drawing.Point(721, 423);
+            this.Lbl_Experiencia_Emple.Location = new System.Drawing.Point(721, 421);
             this.Lbl_Experiencia_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Experiencia_Emple.Name = "Lbl_Experiencia_Emple";
             this.Lbl_Experiencia_Emple.Size = new System.Drawing.Size(133, 17);
@@ -357,8 +354,8 @@
             // 
             // Txt_Experiencia_Emple
             // 
-            this.Txt_Experiencia_Emple.Location = new System.Drawing.Point(579, 372);
-            this.Txt_Experiencia_Emple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_Experiencia_Emple.Location = new System.Drawing.Point(579, 370);
+            this.Txt_Experiencia_Emple.Margin = new System.Windows.Forms.Padding(4);
             this.Txt_Experiencia_Emple.MaxLength = 200;
             this.Txt_Experiencia_Emple.Multiline = true;
             this.Txt_Experiencia_Emple.Name = "Txt_Experiencia_Emple";
@@ -372,7 +369,7 @@
             // Lbl_Post_Grado_Emple
             // 
             this.Lbl_Post_Grado_Emple.AutoSize = true;
-            this.Lbl_Post_Grado_Emple.Location = new System.Drawing.Point(745, 352);
+            this.Lbl_Post_Grado_Emple.Location = new System.Drawing.Point(745, 346);
             this.Lbl_Post_Grado_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Post_Grado_Emple.Name = "Lbl_Post_Grado_Emple";
             this.Lbl_Post_Grado_Emple.Size = new System.Drawing.Size(84, 17);
@@ -381,8 +378,8 @@
             // 
             // Txt_Post_Grado_Emple
             // 
-            this.Txt_Post_Grado_Emple.Location = new System.Drawing.Point(579, 309);
-            this.Txt_Post_Grado_Emple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_Post_Grado_Emple.Location = new System.Drawing.Point(579, 304);
+            this.Txt_Post_Grado_Emple.Margin = new System.Windows.Forms.Padding(4);
             this.Txt_Post_Grado_Emple.MaxLength = 100;
             this.Txt_Post_Grado_Emple.Multiline = true;
             this.Txt_Post_Grado_Emple.Name = "Txt_Post_Grado_Emple";
@@ -397,10 +394,10 @@
             // 
             this.Gbx_Post_Grado.Controls.Add(this.Rbtn_NO);
             this.Gbx_Post_Grado.Controls.Add(this.Rbtn_SI);
-            this.Gbx_Post_Grado.Location = new System.Drawing.Point(692, 256);
-            this.Gbx_Post_Grado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Gbx_Post_Grado.Location = new System.Drawing.Point(692, 253);
+            this.Gbx_Post_Grado.Margin = new System.Windows.Forms.Padding(4);
             this.Gbx_Post_Grado.Name = "Gbx_Post_Grado";
-            this.Gbx_Post_Grado.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Gbx_Post_Grado.Padding = new System.Windows.Forms.Padding(4);
             this.Gbx_Post_Grado.Size = new System.Drawing.Size(195, 46);
             this.Gbx_Post_Grado.TabIndex = 14;
             this.Gbx_Post_Grado.TabStop = false;
@@ -411,7 +408,7 @@
             // 
             this.Rbtn_NO.AutoSize = true;
             this.Rbtn_NO.Location = new System.Drawing.Point(92, 18);
-            this.Rbtn_NO.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Rbtn_NO.Margin = new System.Windows.Forms.Padding(4);
             this.Rbtn_NO.Name = "Rbtn_NO";
             this.Rbtn_NO.Size = new System.Drawing.Size(50, 21);
             this.Rbtn_NO.TabIndex = 1;
@@ -424,7 +421,7 @@
             // 
             this.Rbtn_SI.AutoSize = true;
             this.Rbtn_SI.Location = new System.Drawing.Point(37, 18);
-            this.Rbtn_SI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Rbtn_SI.Margin = new System.Windows.Forms.Padding(4);
             this.Rbtn_SI.Name = "Rbtn_SI";
             this.Rbtn_SI.Size = new System.Drawing.Size(41, 21);
             this.Rbtn_SI.TabIndex = 0;
@@ -436,7 +433,7 @@
             // Lbl_Titulo_Emple
             // 
             this.Lbl_Titulo_Emple.AutoSize = true;
-            this.Lbl_Titulo_Emple.Location = new System.Drawing.Point(765, 236);
+            this.Lbl_Titulo_Emple.Location = new System.Drawing.Point(765, 232);
             this.Lbl_Titulo_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Titulo_Emple.Name = "Lbl_Titulo_Emple";
             this.Lbl_Titulo_Emple.Size = new System.Drawing.Size(43, 17);
@@ -445,8 +442,8 @@
             // 
             // Txt_Titulo_Emple
             // 
-            this.Txt_Titulo_Emple.Location = new System.Drawing.Point(579, 208);
-            this.Txt_Titulo_Emple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_Titulo_Emple.Location = new System.Drawing.Point(579, 206);
+            this.Txt_Titulo_Emple.Margin = new System.Windows.Forms.Padding(4);
             this.Txt_Titulo_Emple.MaxLength = 100;
             this.Txt_Titulo_Emple.Name = "Txt_Titulo_Emple";
             this.Txt_Titulo_Emple.ShortcutsEnabled = false;
@@ -460,7 +457,7 @@
             // 
             this.Lbl_Info_Academica_Emple.AutoSize = true;
             this.Lbl_Info_Academica_Emple.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Info_Academica_Emple.Location = new System.Drawing.Point(641, 180);
+            this.Lbl_Info_Academica_Emple.Location = new System.Drawing.Point(641, 173);
             this.Lbl_Info_Academica_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Info_Academica_Emple.Name = "Lbl_Info_Academica_Emple";
             this.Lbl_Info_Academica_Emple.Size = new System.Drawing.Size(233, 26);
@@ -470,7 +467,7 @@
             // Btn_Guardar
             // 
             this.Btn_Guardar.Location = new System.Drawing.Point(512, 606);
-            this.Btn_Guardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_Guardar.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_Guardar.Name = "Btn_Guardar";
             this.Btn_Guardar.Size = new System.Drawing.Size(100, 28);
             this.Btn_Guardar.TabIndex = 23;
@@ -481,7 +478,7 @@
             // Lbl_Correo_Emple
             // 
             this.Lbl_Correo_Emple.AutoSize = true;
-            this.Lbl_Correo_Emple.Location = new System.Drawing.Point(256, 491);
+            this.Lbl_Correo_Emple.Location = new System.Drawing.Point(256, 494);
             this.Lbl_Correo_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Correo_Emple.Name = "Lbl_Correo_Emple";
             this.Lbl_Correo_Emple.Size = new System.Drawing.Size(51, 17);
@@ -490,8 +487,8 @@
             // 
             // Txt_Correo_Emple
             // 
-            this.Txt_Correo_Emple.Location = new System.Drawing.Point(73, 463);
-            this.Txt_Correo_Emple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_Correo_Emple.Location = new System.Drawing.Point(73, 468);
+            this.Txt_Correo_Emple.Margin = new System.Windows.Forms.Padding(4);
             this.Txt_Correo_Emple.MaxLength = 76;
             this.Txt_Correo_Emple.Name = "Txt_Correo_Emple";
             this.Txt_Correo_Emple.ShortcutsEnabled = false;
@@ -506,7 +503,7 @@
             // Lbl_No_Movil_Emple
             // 
             this.Lbl_No_Movil_Emple.AutoSize = true;
-            this.Lbl_No_Movil_Emple.Location = new System.Drawing.Point(337, 443);
+            this.Lbl_No_Movil_Emple.Location = new System.Drawing.Point(337, 444);
             this.Lbl_No_Movil_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_No_Movil_Emple.Name = "Lbl_No_Movil_Emple";
             this.Lbl_No_Movil_Emple.Size = new System.Drawing.Size(81, 17);
@@ -517,7 +514,7 @@
             // Lbl_No_Fijo_Emple
             // 
             this.Lbl_No_Fijo_Emple.AutoSize = true;
-            this.Lbl_No_Fijo_Emple.Location = new System.Drawing.Point(135, 443);
+            this.Lbl_No_Fijo_Emple.Location = new System.Drawing.Point(135, 444);
             this.Lbl_No_Fijo_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_No_Fijo_Emple.Name = "Lbl_No_Fijo_Emple";
             this.Lbl_No_Fijo_Emple.Size = new System.Drawing.Size(94, 17);
@@ -526,8 +523,8 @@
             // 
             // Txt_Direccion_Emple
             // 
-            this.Txt_Direccion_Emple.Location = new System.Drawing.Point(73, 514);
-            this.Txt_Direccion_Emple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_Direccion_Emple.Location = new System.Drawing.Point(73, 525);
+            this.Txt_Direccion_Emple.Margin = new System.Windows.Forms.Padding(4);
             this.Txt_Direccion_Emple.MaxLength = 500;
             this.Txt_Direccion_Emple.Multiline = true;
             this.Txt_Direccion_Emple.Name = "Txt_Direccion_Emple";
@@ -541,7 +538,7 @@
             // Lbl_Direccion_Emple
             // 
             this.Lbl_Direccion_Emple.AutoSize = true;
-            this.Lbl_Direccion_Emple.Location = new System.Drawing.Point(247, 565);
+            this.Lbl_Direccion_Emple.Location = new System.Drawing.Point(246, 575);
             this.Lbl_Direccion_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Direccion_Emple.Name = "Lbl_Direccion_Emple";
             this.Lbl_Direccion_Emple.Size = new System.Drawing.Size(67, 17);
@@ -551,7 +548,7 @@
             // Lbl_Edad_Emple
             // 
             this.Lbl_Edad_Emple.AutoSize = true;
-            this.Lbl_Edad_Emple.Location = new System.Drawing.Point(401, 393);
+            this.Lbl_Edad_Emple.Location = new System.Drawing.Point(401, 389);
             this.Lbl_Edad_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Edad_Emple.Name = "Lbl_Edad_Emple";
             this.Lbl_Edad_Emple.Size = new System.Drawing.Size(41, 17);
@@ -562,7 +559,7 @@
             // 
             this.Txt_Edad_Emple.Enabled = false;
             this.Txt_Edad_Emple.Location = new System.Drawing.Point(359, 363);
-            this.Txt_Edad_Emple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_Edad_Emple.Margin = new System.Windows.Forms.Padding(4);
             this.Txt_Edad_Emple.Name = "Txt_Edad_Emple";
             this.Txt_Edad_Emple.ShortcutsEnabled = false;
             this.Txt_Edad_Emple.Size = new System.Drawing.Size(128, 22);
@@ -572,7 +569,7 @@
             // Lbl_Fecha_Nacimiento_Emple
             // 
             this.Lbl_Fecha_Nacimiento_Emple.AutoSize = true;
-            this.Lbl_Fecha_Nacimiento_Emple.Location = new System.Drawing.Point(212, 393);
+            this.Lbl_Fecha_Nacimiento_Emple.Location = new System.Drawing.Point(209, 389);
             this.Lbl_Fecha_Nacimiento_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Fecha_Nacimiento_Emple.Name = "Lbl_Fecha_Nacimiento_Emple";
             this.Lbl_Fecha_Nacimiento_Emple.Size = new System.Drawing.Size(141, 17);
@@ -582,7 +579,7 @@
             // Dtp_FechaNacimiento_Emple
             // 
             this.Dtp_FechaNacimiento_Emple.Location = new System.Drawing.Point(216, 363);
-            this.Dtp_FechaNacimiento_Emple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Dtp_FechaNacimiento_Emple.Margin = new System.Windows.Forms.Padding(4);
             this.Dtp_FechaNacimiento_Emple.MaxDate = new System.DateTime(2000, 12, 31, 0, 0, 0, 0);
             this.Dtp_FechaNacimiento_Emple.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
             this.Dtp_FechaNacimiento_Emple.Name = "Dtp_FechaNacimiento_Emple";
@@ -594,7 +591,7 @@
             // Lbl_Genero_Emple
             // 
             this.Lbl_Genero_Emple.AutoSize = true;
-            this.Lbl_Genero_Emple.Location = new System.Drawing.Point(109, 393);
+            this.Lbl_Genero_Emple.Location = new System.Drawing.Point(109, 391);
             this.Lbl_Genero_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Genero_Emple.Name = "Lbl_Genero_Emple";
             this.Lbl_Genero_Emple.Size = new System.Drawing.Size(56, 17);
@@ -604,7 +601,7 @@
             // Lbl_NoIdentidad_Emple
             // 
             this.Lbl_NoIdentidad_Emple.AutoSize = true;
-            this.Lbl_NoIdentidad_Emple.Location = new System.Drawing.Point(224, 236);
+            this.Lbl_NoIdentidad_Emple.Location = new System.Drawing.Point(224, 230);
             this.Lbl_NoIdentidad_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_NoIdentidad_Emple.Name = "Lbl_NoIdentidad_Emple";
             this.Lbl_NoIdentidad_Emple.Size = new System.Drawing.Size(112, 17);
@@ -614,7 +611,7 @@
             // Lbl_Segindo_Apellido_Emple
             // 
             this.Lbl_Segindo_Apellido_Emple.AutoSize = true;
-            this.Lbl_Segindo_Apellido_Emple.Location = new System.Drawing.Point(324, 332);
+            this.Lbl_Segindo_Apellido_Emple.Location = new System.Drawing.Point(324, 329);
             this.Lbl_Segindo_Apellido_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Segindo_Apellido_Emple.Name = "Lbl_Segindo_Apellido_Emple";
             this.Lbl_Segindo_Apellido_Emple.Size = new System.Drawing.Size(119, 17);
@@ -624,7 +621,7 @@
             // Lbl_Primer_Apellido_Emple
             // 
             this.Lbl_Primer_Apellido_Emple.AutoSize = true;
-            this.Lbl_Primer_Apellido_Emple.Location = new System.Drawing.Point(121, 332);
+            this.Lbl_Primer_Apellido_Emple.Location = new System.Drawing.Point(121, 330);
             this.Lbl_Primer_Apellido_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Primer_Apellido_Emple.Name = "Lbl_Primer_Apellido_Emple";
             this.Lbl_Primer_Apellido_Emple.Size = new System.Drawing.Size(103, 17);
@@ -634,7 +631,7 @@
             // Txt_Segundo_Apellido_Emple
             // 
             this.Txt_Segundo_Apellido_Emple.Location = new System.Drawing.Point(291, 304);
-            this.Txt_Segundo_Apellido_Emple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_Segundo_Apellido_Emple.Margin = new System.Windows.Forms.Padding(4);
             this.Txt_Segundo_Apellido_Emple.MaxLength = 50;
             this.Txt_Segundo_Apellido_Emple.Name = "Txt_Segundo_Apellido_Emple";
             this.Txt_Segundo_Apellido_Emple.ShortcutsEnabled = false;
@@ -647,7 +644,7 @@
             // Txt_Primer_Apellido_Emple
             // 
             this.Txt_Primer_Apellido_Emple.Location = new System.Drawing.Point(72, 304);
-            this.Txt_Primer_Apellido_Emple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_Primer_Apellido_Emple.Margin = new System.Windows.Forms.Padding(4);
             this.Txt_Primer_Apellido_Emple.MaxLength = 50;
             this.Txt_Primer_Apellido_Emple.Name = "Txt_Primer_Apellido_Emple";
             this.Txt_Primer_Apellido_Emple.ShortcutsEnabled = false;
@@ -660,7 +657,7 @@
             // Lbl_Segundo_Nombre_Emple
             // 
             this.Lbl_Segundo_Nombre_Emple.AutoSize = true;
-            this.Lbl_Segundo_Nombre_Emple.Location = new System.Drawing.Point(324, 284);
+            this.Lbl_Segundo_Nombre_Emple.Location = new System.Drawing.Point(324, 280);
             this.Lbl_Segundo_Nombre_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Segundo_Nombre_Emple.Name = "Lbl_Segundo_Nombre_Emple";
             this.Lbl_Segundo_Nombre_Emple.Size = new System.Drawing.Size(119, 17);
@@ -670,7 +667,7 @@
             // Lbl_Primer_Nombre_Emple
             // 
             this.Lbl_Primer_Nombre_Emple.AutoSize = true;
-            this.Lbl_Primer_Nombre_Emple.Location = new System.Drawing.Point(121, 284);
+            this.Lbl_Primer_Nombre_Emple.Location = new System.Drawing.Point(121, 280);
             this.Lbl_Primer_Nombre_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Primer_Nombre_Emple.Name = "Lbl_Primer_Nombre_Emple";
             this.Lbl_Primer_Nombre_Emple.Size = new System.Drawing.Size(103, 17);
@@ -679,8 +676,8 @@
             // 
             // Txt_Segundo_Nombre_Emple
             // 
-            this.Txt_Segundo_Nombre_Emple.Location = new System.Drawing.Point(291, 256);
-            this.Txt_Segundo_Nombre_Emple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_Segundo_Nombre_Emple.Location = new System.Drawing.Point(291, 254);
+            this.Txt_Segundo_Nombre_Emple.Margin = new System.Windows.Forms.Padding(4);
             this.Txt_Segundo_Nombre_Emple.MaxLength = 50;
             this.Txt_Segundo_Nombre_Emple.Name = "Txt_Segundo_Nombre_Emple";
             this.Txt_Segundo_Nombre_Emple.ShortcutsEnabled = false;
@@ -692,8 +689,8 @@
             // 
             // Txb_Primer_Nombre_Emple
             // 
-            this.Txb_Primer_Nombre_Emple.Location = new System.Drawing.Point(72, 256);
-            this.Txb_Primer_Nombre_Emple.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txb_Primer_Nombre_Emple.Location = new System.Drawing.Point(72, 254);
+            this.Txb_Primer_Nombre_Emple.Margin = new System.Windows.Forms.Padding(4);
             this.Txb_Primer_Nombre_Emple.MaxLength = 50;
             this.Txb_Primer_Nombre_Emple.Name = "Txb_Primer_Nombre_Emple";
             this.Txb_Primer_Nombre_Emple.ShortcutsEnabled = false;
@@ -707,7 +704,7 @@
             // 
             this.Lbl_Infor_Personal_Emple.AutoSize = true;
             this.Lbl_Infor_Personal_Emple.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Infor_Personal_Emple.Location = new System.Drawing.Point(149, 180);
+            this.Lbl_Infor_Personal_Emple.Location = new System.Drawing.Point(149, 173);
             this.Lbl_Infor_Personal_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Infor_Personal_Emple.Name = "Lbl_Infor_Personal_Emple";
             this.Lbl_Infor_Personal_Emple.Size = new System.Drawing.Size(246, 26);
@@ -720,9 +717,8 @@
             this.PnlInfo_Usuario.Controls.Add(this.Lbl_Cargo);
             this.PnlInfo_Usuario.Controls.Add(this.Lbl_Identidad_Admin);
             this.PnlInfo_Usuario.Controls.Add(this.Lbl_Nombre_admin);
-            this.PnlInfo_Usuario.Controls.Add(this.pbxUsuario);
-            this.PnlInfo_Usuario.Location = new System.Drawing.Point(611, 10);
-            this.PnlInfo_Usuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PnlInfo_Usuario.Location = new System.Drawing.Point(585, 4);
+            this.PnlInfo_Usuario.Margin = new System.Windows.Forms.Padding(4);
             this.PnlInfo_Usuario.Name = "PnlInfo_Usuario";
             this.PnlInfo_Usuario.Size = new System.Drawing.Size(445, 156);
             this.PnlInfo_Usuario.TabIndex = 14;
@@ -730,7 +726,7 @@
             // Lbl_Cargo
             // 
             this.Lbl_Cargo.AutoSize = true;
-            this.Lbl_Cargo.Location = new System.Drawing.Point(135, 100);
+            this.Lbl_Cargo.Location = new System.Drawing.Point(175, 104);
             this.Lbl_Cargo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Cargo.Name = "Lbl_Cargo";
             this.Lbl_Cargo.Size = new System.Drawing.Size(95, 17);
@@ -740,54 +736,43 @@
             // Lbl_Identidad_Admin
             // 
             this.Lbl_Identidad_Admin.AutoSize = true;
-            this.Lbl_Identidad_Admin.Location = new System.Drawing.Point(123, 66);
+            this.Lbl_Identidad_Admin.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Identidad_Admin.Location = new System.Drawing.Point(140, 70);
             this.Lbl_Identidad_Admin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Identidad_Admin.Name = "Lbl_Identidad_Admin";
-            this.Lbl_Identidad_Admin.Size = new System.Drawing.Size(122, 17);
+            this.Lbl_Identidad_Admin.Size = new System.Drawing.Size(0, 21);
             this.Lbl_Identidad_Admin.TabIndex = 2;
-            this.Lbl_Identidad_Admin.Text = "0000-0000-00000";
             // 
             // Lbl_Nombre_admin
             // 
             this.Lbl_Nombre_admin.AutoSize = true;
-            this.Lbl_Nombre_admin.Location = new System.Drawing.Point(52, 32);
+            this.Lbl_Nombre_admin.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Nombre_admin.Location = new System.Drawing.Point(67, 33);
             this.Lbl_Nombre_admin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Nombre_admin.Name = "Lbl_Nombre_admin";
-            this.Lbl_Nombre_admin.Size = new System.Drawing.Size(249, 17);
+            this.Lbl_Nombre_admin.Size = new System.Drawing.Size(0, 21);
             this.Lbl_Nombre_admin.TabIndex = 1;
-            this.Lbl_Nombre_admin.Text = "Nombre1 Nombre2 Apellido1 Apelido2";
             this.Lbl_Nombre_admin.Click += new System.EventHandler(this.Lbl_Nombre_admin_Click);
-            // 
-            // pbxUsuario
-            // 
-            this.pbxUsuario.Image = ((System.Drawing.Image)(resources.GetObject("pbxUsuario.Image")));
-            this.pbxUsuario.Location = new System.Drawing.Point(308, 18);
-            this.pbxUsuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pbxUsuario.Name = "pbxUsuario";
-            this.pbxUsuario.Size = new System.Drawing.Size(133, 121);
-            this.pbxUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxUsuario.TabIndex = 0;
-            this.pbxUsuario.TabStop = false;
             // 
             // Lbl_Admisiones
             // 
             this.Lbl_Admisiones.AutoSize = true;
-            this.Lbl_Admisiones.Font = new System.Drawing.Font("MS Reference Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Admisiones.Location = new System.Drawing.Point(219, 91);
+            this.Lbl_Admisiones.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Admisiones.Location = new System.Drawing.Point(156, 91);
             this.Lbl_Admisiones.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Admisiones.Name = "Lbl_Admisiones";
-            this.Lbl_Admisiones.Size = new System.Drawing.Size(159, 29);
+            this.Lbl_Admisiones.Size = new System.Drawing.Size(262, 49);
             this.Lbl_Admisiones.TabIndex = 16;
             this.Lbl_Admisiones.Text = "Admisiones";
             // 
             // Lbl_EIPG
             // 
             this.Lbl_EIPG.AutoSize = true;
-            this.Lbl_EIPG.Font = new System.Drawing.Font("MS Reference Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_EIPG.Location = new System.Drawing.Point(41, 53);
+            this.Lbl_EIPG.Font = new System.Drawing.Font("MS Reference Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_EIPG.Location = new System.Drawing.Point(13, 56);
             this.Lbl_EIPG.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_EIPG.Name = "Lbl_EIPG";
-            this.Lbl_EIPG.Size = new System.Drawing.Size(469, 29);
+            this.Lbl_EIPG.Size = new System.Drawing.Size(560, 35);
             this.Lbl_EIPG.TabIndex = 15;
             this.Lbl_EIPG.Text = "Escuela e Instituto Privado Gualaco";
             this.Lbl_EIPG.Click += new System.EventHandler(this.lblEIPG_Click);
@@ -803,7 +788,7 @@
             this.ClientSize = new System.Drawing.Size(1067, 649);
             this.Controls.Add(this.pnlIngreso_Emple);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Ingresar_Empleado";
@@ -817,7 +802,6 @@
             this.Gbx_Post_Grado.PerformLayout();
             this.PnlInfo_Usuario.ResumeLayout(false);
             this.PnlInfo_Usuario.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxUsuario)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.error)).EndInit();
             this.ResumeLayout(false);
 
@@ -843,7 +827,6 @@
         private System.Windows.Forms.Label Lbl_Cargo;
         private System.Windows.Forms.Label Lbl_Identidad_Admin;
         private System.Windows.Forms.Label Lbl_Nombre_admin;
-        private System.Windows.Forms.PictureBox pbxUsuario;
         private System.Windows.Forms.Label Lbl_Admisiones;
         private System.Windows.Forms.Label Lbl_EIPG;
         private System.Windows.Forms.Label Lbl_Titulo_Emple;

@@ -113,5 +113,13 @@ namespace Proyecto_EIPG
             this.Close();//cierra este formulario
             MA.Show();//abre el formulario de mantenimiento
         }
+
+        private void btn_regresar_Click(object sender, EventArgs e)
+        {
+            menu mn = new menu();//hace instancia formulario menu
+            this.Close();//cierra formulario actual
+            mn.Show();//abre formulario menu
+            
+        }
     }
 }

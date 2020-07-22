@@ -45,7 +45,7 @@
             // Lbl_No_Movil
             // 
             this.Lbl_No_Movil.AutoSize = true;
-            this.Lbl_No_Movil.Location = new System.Drawing.Point(37, 155);
+            this.Lbl_No_Movil.Location = new System.Drawing.Point(54, 145);
             this.Lbl_No_Movil.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_No_Movil.Name = "Lbl_No_Movil";
             this.Lbl_No_Movil.Size = new System.Drawing.Size(139, 17);
@@ -59,8 +59,8 @@
             this.Cmb_Nivel_Academico.Items.AddRange(new object[] {
             "Femenino",
             "Masculino"});
-            this.Cmb_Nivel_Academico.Location = new System.Drawing.Point(199, 218);
-            this.Cmb_Nivel_Academico.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Cmb_Nivel_Academico.Location = new System.Drawing.Point(199, 208);
+            this.Cmb_Nivel_Academico.Margin = new System.Windows.Forms.Padding(4);
             this.Cmb_Nivel_Academico.Name = "Cmb_Nivel_Academico";
             this.Cmb_Nivel_Academico.Size = new System.Drawing.Size(148, 24);
             this.Cmb_Nivel_Academico.TabIndex = 110;
@@ -68,7 +68,7 @@
             // Lbl_Grado
             // 
             this.Lbl_Grado.AutoSize = true;
-            this.Lbl_Grado.Location = new System.Drawing.Point(71, 222);
+            this.Lbl_Grado.Location = new System.Drawing.Point(78, 210);
             this.Lbl_Grado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Grado.Name = "Lbl_Grado";
             this.Lbl_Grado.Size = new System.Drawing.Size(116, 17);
@@ -79,7 +79,7 @@
             // 
             this.Lbl_Infor_Personal_Emple.AutoSize = true;
             this.Lbl_Infor_Personal_Emple.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Infor_Personal_Emple.Location = new System.Drawing.Point(108, 27);
+            this.Lbl_Infor_Personal_Emple.Location = new System.Drawing.Point(88, 27);
             this.Lbl_Infor_Personal_Emple.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Infor_Personal_Emple.Name = "Lbl_Infor_Personal_Emple";
             this.Lbl_Infor_Personal_Emple.Size = new System.Drawing.Size(230, 26);
@@ -88,8 +88,8 @@
             // 
             // Btn_Actualizar
             // 
-            this.Btn_Actualizar.Location = new System.Drawing.Point(172, 306);
-            this.Btn_Actualizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_Actualizar.Location = new System.Drawing.Point(171, 287);
+            this.Btn_Actualizar.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_Actualizar.Name = "Btn_Actualizar";
             this.Btn_Actualizar.Size = new System.Drawing.Size(100, 28);
             this.Btn_Actualizar.TabIndex = 107;
@@ -99,8 +99,8 @@
             // 
             // btn_Cancelar
             // 
-            this.btn_Cancelar.Location = new System.Drawing.Point(304, 306);
-            this.btn_Cancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Cancelar.Location = new System.Drawing.Point(303, 287);
+            this.btn_Cancelar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Cancelar.Name = "btn_Cancelar";
             this.btn_Cancelar.Size = new System.Drawing.Size(100, 28);
             this.btn_Cancelar.TabIndex = 114;
@@ -135,7 +135,7 @@
             "19",
             "20"});
             this.comboBox1.Location = new System.Drawing.Point(199, 143);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(148, 24);
             this.comboBox1.TabIndex = 115;
@@ -147,7 +147,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(21, 374);
+            this.dataGridView1.Location = new System.Drawing.Point(14, 367);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;

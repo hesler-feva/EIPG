@@ -13,7 +13,7 @@ namespace Proyecto_EIPG
     {
 
         //instancia al servidor de la base de datos
-        static private string conexionstring = "server = (local); database = final; integrated security = true";
+        static private string conexionstring = "server = DESKTOP-KDTCO0R\\SQLEXPRESS; database = final; integrated security = true";
         //data source = 10.1.3.223; initial catalog = final; user id = EIPG2019; password = EIPG2019;
         private SqlConnection cn = new SqlConnection(conexionstring);
 

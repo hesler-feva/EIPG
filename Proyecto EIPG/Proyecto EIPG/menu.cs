@@ -57,5 +57,12 @@ namespace Proyecto_EIPG
             Form1 login = new Form1();
             login.Show();
         }
+
+        private void Btn_Mantenimiento_Academico_Click(object sender, EventArgs e)
+        {
+            Mantenimiento_Academico MA = new Mantenimiento_Academico();//hace la instancia
+            this.Close();//cierra este formulario
+            MA.Show();//abre el formulario de mantenimiento
+        }
     }
 }

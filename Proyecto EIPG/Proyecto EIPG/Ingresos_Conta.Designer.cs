@@ -34,7 +34,6 @@
             this.Lbl_Cargo = new System.Windows.Forms.Label();
             this.Lbl_Identidad_Conta = new System.Windows.Forms.Label();
             this.Lbl_Nombre_conta = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Btn_Regresar = new System.Windows.Forms.Button();
             this.Btn_Registro_Ingreso_Otros = new System.Windows.Forms.Button();
             this.Lbl_Bienbenida = new System.Windows.Forms.Label();
@@ -43,7 +42,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pnlContenedor.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,8 +57,9 @@
             this.pnlContenedor.Controls.Add(this.pictureBox2);
             this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContenedor.Location = new System.Drawing.Point(0, 0);
+            this.pnlContenedor.Margin = new System.Windows.Forms.Padding(4);
             this.pnlContenedor.Name = "pnlContenedor";
-            this.pnlContenedor.Size = new System.Drawing.Size(800, 450);
+            this.pnlContenedor.Size = new System.Drawing.Size(1067, 554);
             this.pnlContenedor.TabIndex = 10;
             this.pnlContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlContenedor_Paint);
             // 
@@ -69,117 +68,133 @@
             this.panel1.Controls.Add(this.Lbl_Cargo);
             this.panel1.Controls.Add(this.Lbl_Identidad_Conta);
             this.panel1.Controls.Add(this.Lbl_Nombre_conta);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(462, 3);
+            this.panel1.Location = new System.Drawing.Point(585, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(334, 127);
+            this.panel1.Size = new System.Drawing.Size(445, 156);
             this.panel1.TabIndex = 13;
             // 
             // Lbl_Cargo
             // 
             this.Lbl_Cargo.AutoSize = true;
-            this.Lbl_Cargo.Location = new System.Drawing.Point(105, 81);
+            this.Lbl_Cargo.Font = new System.Drawing.Font("Bookman Old Style", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Cargo.Location = new System.Drawing.Point(175, 104);
+            this.Lbl_Cargo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Cargo.Name = "Lbl_Cargo";
-            this.Lbl_Cargo.Size = new System.Drawing.Size(65, 13);
+            this.Lbl_Cargo.Size = new System.Drawing.Size(99, 19);
             this.Lbl_Cargo.TabIndex = 3;
             this.Lbl_Cargo.Text = "Contabilidad";
             // 
             // Lbl_Identidad_Conta
             // 
             this.Lbl_Identidad_Conta.AutoSize = true;
-            this.Lbl_Identidad_Conta.Location = new System.Drawing.Point(92, 54);
+            this.Lbl_Identidad_Conta.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Identidad_Conta.Location = new System.Drawing.Point(140, 70);
+            this.Lbl_Identidad_Conta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Identidad_Conta.Name = "Lbl_Identidad_Conta";
-            this.Lbl_Identidad_Conta.Size = new System.Drawing.Size(91, 13);
+            this.Lbl_Identidad_Conta.Size = new System.Drawing.Size(0, 21);
             this.Lbl_Identidad_Conta.TabIndex = 2;
-            this.Lbl_Identidad_Conta.Text = "0000-0000-00000";
+            this.Lbl_Identidad_Conta.Click += new System.EventHandler(this.Lbl_Identidad_Conta_Click);
             // 
             // Lbl_Nombre_conta
             // 
             this.Lbl_Nombre_conta.AutoSize = true;
-            this.Lbl_Nombre_conta.Location = new System.Drawing.Point(39, 26);
+            this.Lbl_Nombre_conta.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Nombre_conta.Location = new System.Drawing.Point(67, 33);
+            this.Lbl_Nombre_conta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Nombre_conta.Name = "Lbl_Nombre_conta";
-            this.Lbl_Nombre_conta.Size = new System.Drawing.Size(186, 13);
+            this.Lbl_Nombre_conta.Size = new System.Drawing.Size(0, 21);
             this.Lbl_Nombre_conta.TabIndex = 1;
-            this.Lbl_Nombre_conta.Text = "Nombre1 Nombre2 Apellido1 Apelido2";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(231, 15);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 98);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // Btn_Regresar
             // 
-            this.Btn_Regresar.Location = new System.Drawing.Point(276, 281);
+            this.Btn_Regresar.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Regresar.Image = global::Proyecto_EIPG.Properties.Resources.cerrar_sesion4;
+            this.Btn_Regresar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Btn_Regresar.Location = new System.Drawing.Point(406, 379);
+            this.Btn_Regresar.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_Regresar.Name = "Btn_Regresar";
-            this.Btn_Regresar.Size = new System.Drawing.Size(222, 46);
+            this.Btn_Regresar.Size = new System.Drawing.Size(216, 92);
             this.Btn_Regresar.TabIndex = 12;
             this.Btn_Regresar.Text = "Regresar";
+            this.Btn_Regresar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Btn_Regresar.UseVisualStyleBackColor = true;
             this.Btn_Regresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // Btn_Registro_Ingreso_Otros
             // 
-            this.Btn_Registro_Ingreso_Otros.Location = new System.Drawing.Point(443, 199);
+            this.Btn_Registro_Ingreso_Otros.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Registro_Ingreso_Otros.Image = global::Proyecto_EIPG.Properties.Resources.otros_pagos;
+            this.Btn_Registro_Ingreso_Otros.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Btn_Registro_Ingreso_Otros.Location = new System.Drawing.Point(591, 269);
+            this.Btn_Registro_Ingreso_Otros.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_Registro_Ingreso_Otros.Name = "Btn_Registro_Ingreso_Otros";
-            this.Btn_Registro_Ingreso_Otros.Size = new System.Drawing.Size(222, 46);
+            this.Btn_Registro_Ingreso_Otros.Size = new System.Drawing.Size(316, 57);
             this.Btn_Registro_Ingreso_Otros.TabIndex = 8;
             this.Btn_Registro_Ingreso_Otros.Text = "Otros Ingresos";
+            this.Btn_Registro_Ingreso_Otros.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_Registro_Ingreso_Otros.UseVisualStyleBackColor = true;
             this.Btn_Registro_Ingreso_Otros.Click += new System.EventHandler(this.btnRegistroIngreso_Otros_Click);
             // 
             // Lbl_Bienbenida
             // 
             this.Lbl_Bienbenida.AutoSize = true;
-            this.Lbl_Bienbenida.Font = new System.Drawing.Font("MS Reference Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Bienbenida.Location = new System.Drawing.Point(170, 78);
+            this.Lbl_Bienbenida.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Bienbenida.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Lbl_Bienbenida.Location = new System.Drawing.Point(176, 91);
+            this.Lbl_Bienbenida.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Bienbenida.Name = "Lbl_Bienbenida";
-            this.Lbl_Bienbenida.Size = new System.Drawing.Size(126, 24);
+            this.Lbl_Bienbenida.Size = new System.Drawing.Size(203, 49);
             this.Lbl_Bienbenida.TabIndex = 7;
-            this.Lbl_Bienbenida.Text = "Bienvenido";
+            this.Lbl_Bienbenida.Text = "Ingresos";
             // 
             // Lbl_EIPG
             // 
             this.Lbl_EIPG.AutoSize = true;
-            this.Lbl_EIPG.Font = new System.Drawing.Font("MS Reference Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_EIPG.Location = new System.Drawing.Point(34, 50);
+            this.Lbl_EIPG.Font = new System.Drawing.Font("MS Reference Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_EIPG.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Lbl_EIPG.Location = new System.Drawing.Point(13, 56);
+            this.Lbl_EIPG.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_EIPG.Name = "Lbl_EIPG";
-            this.Lbl_EIPG.Size = new System.Drawing.Size(385, 24);
+            this.Lbl_EIPG.Size = new System.Drawing.Size(560, 35);
             this.Lbl_EIPG.TabIndex = 6;
             this.Lbl_EIPG.Text = "Escuela e Instituto Privado Gualaco";
             // 
             // Btn_Registro_Ingreso_MatYmensu
             // 
-            this.Btn_Registro_Ingreso_MatYmensu.Location = new System.Drawing.Point(103, 199);
+            this.Btn_Registro_Ingreso_MatYmensu.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Registro_Ingreso_MatYmensu.Image = global::Proyecto_EIPG.Properties.Resources.mensualidad_2;
+            this.Btn_Registro_Ingreso_MatYmensu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_Registro_Ingreso_MatYmensu.Location = new System.Drawing.Point(117, 269);
+            this.Btn_Registro_Ingreso_MatYmensu.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_Registro_Ingreso_MatYmensu.Name = "Btn_Registro_Ingreso_MatYmensu";
-            this.Btn_Registro_Ingreso_MatYmensu.Size = new System.Drawing.Size(222, 46);
+            this.Btn_Registro_Ingreso_MatYmensu.Size = new System.Drawing.Size(316, 57);
             this.Btn_Registro_Ingreso_MatYmensu.TabIndex = 0;
             this.Btn_Registro_Ingreso_MatYmensu.Text = "Matricula y Mensualidades";
+            this.Btn_Registro_Ingreso_MatYmensu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.Btn_Registro_Ingreso_MatYmensu.UseVisualStyleBackColor = true;
             this.Btn_Registro_Ingreso_MatYmensu.Click += new System.EventHandler(this.btnRegistroIngreso_MatYmensu_Click);
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(331, 175);
+            this.pictureBox2.Location = new System.Drawing.Point(441, 215);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(106, 100);
+            this.pictureBox2.Size = new System.Drawing.Size(141, 156);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
             // 
             // Ingresos_Conta
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.pnlContenedor);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Ingresos_Conta";
@@ -190,7 +205,6 @@
             this.pnlContenedor.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
@@ -203,7 +217,6 @@
         private System.Windows.Forms.Label Lbl_Cargo;
         private System.Windows.Forms.Label Lbl_Identidad_Conta;
         private System.Windows.Forms.Label Lbl_Nombre_conta;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button Btn_Regresar;
         private System.Windows.Forms.Button Btn_Registro_Ingreso_Otros;
         private System.Windows.Forms.Label Lbl_Bienbenida;

@@ -92,3 +92,12 @@ C:\Users\Javii Pey\Desktop\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios
 C:\Users\Javii Pey\Desktop\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfo.cs
 C:\Users\Javii Pey\Desktop\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.dll
 C:\Users\Javii Pey\Desktop\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\rjozz\Desktop\I periodo 2020\Prueba y documentacion\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.deps.json
+C:\Users\rjozz\Desktop\I periodo 2020\Prueba y documentacion\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\rjozz\Desktop\I periodo 2020\Prueba y documentacion\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\bin\Debug\netstandard2.0\Datos_usuarios.pdb
+C:\Users\rjozz\Desktop\I periodo 2020\Prueba y documentacion\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csprojAssemblyReference.cache
+C:\Users\rjozz\Desktop\I periodo 2020\Prueba y documentacion\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.csproj.CoreCompileInputs.cache
+C:\Users\rjozz\Desktop\I periodo 2020\Prueba y documentacion\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfoInputs.cache
+C:\Users\rjozz\Desktop\I periodo 2020\Prueba y documentacion\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.AssemblyInfo.cs
+C:\Users\rjozz\Desktop\I periodo 2020\Prueba y documentacion\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.dll
+C:\Users\rjozz\Desktop\I periodo 2020\Prueba y documentacion\Proyecto EIPG 29-03-2020\Proyecto EIPG\Datos_usuarios\obj\Debug\netstandard2.0\Datos_usuarios.pdb

@@ -179,19 +179,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Javii Pey\\.nuget\\packages\\": {}
+    "C:\\Users\\rjozz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Javii Pey\\Desktop\\Proyecto EIPG 29-03-2020\\Proyecto EIPG\\Datos_usuarios\\Datos_usuarios.csproj",
+      "projectUniqueName": "C:\\Users\\rjozz\\Desktop\\I periodo 2020\\Prueba y documentacion\\Proyecto EIPG 29-03-2020\\Proyecto EIPG\\Datos_usuarios\\Datos_usuarios.csproj",
       "projectName": "Datos_usuarios",
-      "projectPath": "C:\\Users\\Javii Pey\\Desktop\\Proyecto EIPG 29-03-2020\\Proyecto EIPG\\Datos_usuarios\\Datos_usuarios.csproj",
-      "packagesPath": "C:\\Users\\Javii Pey\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Javii Pey\\Desktop\\Proyecto EIPG 29-03-2020\\Proyecto EIPG\\Datos_usuarios\\obj\\",
+      "projectPath": "C:\\Users\\rjozz\\Desktop\\I periodo 2020\\Prueba y documentacion\\Proyecto EIPG 29-03-2020\\Proyecto EIPG\\Datos_usuarios\\Datos_usuarios.csproj",
+      "packagesPath": "C:\\Users\\rjozz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rjozz\\Desktop\\I periodo 2020\\Prueba y documentacion\\Proyecto EIPG 29-03-2020\\Proyecto EIPG\\Datos_usuarios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Javii Pey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rjozz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -232,7 +232,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

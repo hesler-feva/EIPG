@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6MGmkbVIzj3KukXIRfm32O6U5c+zNTF/F6dgcHE3xBwmIlKUCEWxO2QtCiz/jbPbinlOxlLOnbRITeaK86qi6A==",
+  "dgSpecHash": "Q+afqQn1mKvktxttB0+IawTAyZ8zyDkYoHZUzM9nRCjNAU6fO6zwRo+Ky7is0/HgSx66EGqn1afMEe+XodpurQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rjozz\\Desktop\\I periodo 2020\\Prueba y documentacion\\EIPG FINAL 16-02-2020\\EIPG FINAL\\Proyecto EIPG\\Proyecto EIPG\\Datos_usuarios\\Datos_usuarios.csproj",
+  "projectFilePath": "C:\\Users\\rjozz\\Desktop\\I periodo 2020\\Prueba y documentacion\\Proyecto EIPG 29-03-2020\\Proyecto EIPG\\Datos_usuarios\\Datos_usuarios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rjozz\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\rjozz\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

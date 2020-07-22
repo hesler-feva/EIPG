@@ -72,7 +72,7 @@ namespace Proyecto_EIPG
         //evento load de menu contable
         private void Menu_Contabilidad_Load(object sender, EventArgs e)
         {
-            //carga los datos del usuario de la clase de usuarios cache
+            //carga los datos del usuario de la clase de usuarios cache   
             lblNombre_conta.Text = cache_usuario.Usuario;
             lblIdentidad_Conta.Text = cache_usuario.Id;
         }
@@ -80,6 +80,13 @@ namespace Proyecto_EIPG
         private void PnlContenedor_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btn_regresar_Click(object sender, EventArgs e)
+        {
+            menu mn = new menu(); //Instancia del formulario menu
+            this.Close(); //Se cierra el formulario actual
+            mn.Show(); //se muestra el formulario menu
         }
     }
 }

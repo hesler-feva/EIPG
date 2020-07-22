@@ -300,6 +300,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="reportalumno.rdlc" />
     <EmbeddedResource Include="ReporteAlumnoActivoInactivo.rdlc" />
@@ -375,6 +376,57 @@
       <Project>{9ceb4b73-85f6-4b13-9184-4a2f3a55d9fa}</Project>
       <Name>Datos_usuarios</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevo alumno reducida 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevo Empleado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Listar Alumnos Empleados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mantenimiento 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mantenimiento 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar sesion 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar sesion4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administrar 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ingresos 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\egresos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reporte Ingresos 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reporte egresos 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reporte general.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\otros pagos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensualidad 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo menu.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

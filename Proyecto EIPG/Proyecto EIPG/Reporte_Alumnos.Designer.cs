@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reporte_Alumnos));
             this.pnlReporte_Alum = new System.Windows.Forms.Panel();
             this.Rdbn_A_inactivos = new System.Windows.Forms.RadioButton();
             this.Rdbn_A_activos = new System.Windows.Forms.RadioButton();
@@ -46,7 +45,6 @@
             this.Lbl_Cargo = new System.Windows.Forms.Label();
             this.Lbl_Identidad_Admin = new System.Windows.Forms.Label();
             this.Lbl_Nombre_admin = new System.Windows.Forms.Label();
-            this.pbxUsuario = new System.Windows.Forms.PictureBox();
             this.Lbl_Registro_Alum = new System.Windows.Forms.Label();
             this.Lbl_EIPG = new System.Windows.Forms.Label();
             this.error = new System.Windows.Forms.ErrorProvider(this.components);
@@ -54,12 +52,12 @@
             this.pnlReporte_Alum.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.PnlInfo_Usuario.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxUsuario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.error)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlReporte_Alum
             // 
+            this.pnlReporte_Alum.Controls.Add(this.Btn_Refrescar);
             this.pnlReporte_Alum.Controls.Add(this.Rdbn_A_inactivos);
             this.pnlReporte_Alum.Controls.Add(this.Rdbn_A_activos);
             this.pnlReporte_Alum.Controls.Add(this.btn_alum_grado);
@@ -83,7 +81,7 @@
             // Rdbn_A_inactivos
             // 
             this.Rdbn_A_inactivos.AutoSize = true;
-            this.Rdbn_A_inactivos.Location = new System.Drawing.Point(461, 132);
+            this.Rdbn_A_inactivos.Location = new System.Drawing.Point(461, 180);
             this.Rdbn_A_inactivos.Margin = new System.Windows.Forms.Padding(4);
             this.Rdbn_A_inactivos.Name = "Rdbn_A_inactivos";
             this.Rdbn_A_inactivos.Size = new System.Drawing.Size(142, 21);
@@ -96,7 +94,7 @@
             // Rdbn_A_activos
             // 
             this.Rdbn_A_activos.AutoSize = true;
-            this.Rdbn_A_activos.Location = new System.Drawing.Point(289, 132);
+            this.Rdbn_A_activos.Location = new System.Drawing.Point(289, 180);
             this.Rdbn_A_activos.Margin = new System.Windows.Forms.Padding(4);
             this.Rdbn_A_activos.Name = "Rdbn_A_activos";
             this.Rdbn_A_activos.Size = new System.Drawing.Size(132, 21);
@@ -119,7 +117,7 @@
             // Rdbn_Morosos
             // 
             this.Rdbn_Morosos.AutoSize = true;
-            this.Rdbn_Morosos.Location = new System.Drawing.Point(16, 132);
+            this.Rdbn_Morosos.Location = new System.Drawing.Point(16, 180);
             this.Rdbn_Morosos.Margin = new System.Windows.Forms.Padding(4);
             this.Rdbn_Morosos.Name = "Rdbn_Morosos";
             this.Rdbn_Morosos.Size = new System.Drawing.Size(253, 21);
@@ -143,18 +141,18 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(16, 172);
+            this.dataGridView1.Location = new System.Drawing.Point(16, 209);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(1035, 412);
+            this.dataGridView1.Size = new System.Drawing.Size(1035, 375);
             this.dataGridView1.TabIndex = 81;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Btn_Buscar_Alum
             // 
-            this.Btn_Buscar_Alum.Location = new System.Drawing.Point(511, 95);
+            this.Btn_Buscar_Alum.Location = new System.Drawing.Point(512, 145);
             this.Btn_Buscar_Alum.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_Buscar_Alum.Name = "Btn_Buscar_Alum";
             this.Btn_Buscar_Alum.Size = new System.Drawing.Size(100, 28);
@@ -165,7 +163,7 @@
             // 
             // Txt_NoIdentidad_Alum
             // 
-            this.Txt_NoIdentidad_Alum.Location = new System.Drawing.Point(308, 95);
+            this.Txt_NoIdentidad_Alum.Location = new System.Drawing.Point(313, 147);
             this.Txt_NoIdentidad_Alum.Margin = new System.Windows.Forms.Padding(4);
             this.Txt_NoIdentidad_Alum.MaxLength = 50;
             this.Txt_NoIdentidad_Alum.Name = "Txt_NoIdentidad_Alum";
@@ -176,7 +174,7 @@
             // Lbl_No_Identidad_Alum
             // 
             this.Lbl_No_Identidad_Alum.AutoSize = true;
-            this.Lbl_No_Identidad_Alum.Location = new System.Drawing.Point(12, 101);
+            this.Lbl_No_Identidad_Alum.Location = new System.Drawing.Point(8, 150);
             this.Lbl_No_Identidad_Alum.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_No_Identidad_Alum.Name = "Lbl_No_Identidad_Alum";
             this.Lbl_No_Identidad_Alum.Size = new System.Drawing.Size(304, 17);
@@ -197,12 +195,10 @@
             // PnlInfo_Usuario
             // 
             this.PnlInfo_Usuario.BackColor = System.Drawing.Color.Transparent;
-            this.PnlInfo_Usuario.Controls.Add(this.Btn_Refrescar);
             this.PnlInfo_Usuario.Controls.Add(this.Lbl_Cargo);
             this.PnlInfo_Usuario.Controls.Add(this.Lbl_Identidad_Admin);
             this.PnlInfo_Usuario.Controls.Add(this.Lbl_Nombre_admin);
-            this.PnlInfo_Usuario.Controls.Add(this.pbxUsuario);
-            this.PnlInfo_Usuario.Location = new System.Drawing.Point(611, 10);
+            this.PnlInfo_Usuario.Location = new System.Drawing.Point(585, 4);
             this.PnlInfo_Usuario.Margin = new System.Windows.Forms.Padding(4);
             this.PnlInfo_Usuario.Name = "PnlInfo_Usuario";
             this.PnlInfo_Usuario.Size = new System.Drawing.Size(445, 126);
@@ -210,7 +206,7 @@
             // 
             // Btn_Refrescar
             // 
-            this.Btn_Refrescar.Location = new System.Drawing.Point(8, 85);
+            this.Btn_Refrescar.Location = new System.Drawing.Point(620, 145);
             this.Btn_Refrescar.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_Refrescar.Name = "Btn_Refrescar";
             this.Btn_Refrescar.Size = new System.Drawing.Size(100, 28);
@@ -222,63 +218,53 @@
             // Lbl_Cargo
             // 
             this.Lbl_Cargo.AutoSize = true;
-            this.Lbl_Cargo.Location = new System.Drawing.Point(139, 81);
+            this.Lbl_Cargo.Font = new System.Drawing.Font("Bookman Old Style", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Cargo.Location = new System.Drawing.Point(170, 104);
             this.Lbl_Cargo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Cargo.Name = "Lbl_Cargo";
-            this.Lbl_Cargo.Size = new System.Drawing.Size(95, 17);
+            this.Lbl_Cargo.Size = new System.Drawing.Size(110, 19);
             this.Lbl_Cargo.TabIndex = 3;
             this.Lbl_Cargo.Text = "Administrador";
             // 
             // Lbl_Identidad_Admin
             // 
             this.Lbl_Identidad_Admin.AutoSize = true;
-            this.Lbl_Identidad_Admin.Location = new System.Drawing.Point(123, 43);
+            this.Lbl_Identidad_Admin.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Identidad_Admin.Location = new System.Drawing.Point(140, 70);
             this.Lbl_Identidad_Admin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Identidad_Admin.Name = "Lbl_Identidad_Admin";
-            this.Lbl_Identidad_Admin.Size = new System.Drawing.Size(122, 17);
+            this.Lbl_Identidad_Admin.Size = new System.Drawing.Size(0, 21);
             this.Lbl_Identidad_Admin.TabIndex = 2;
-            this.Lbl_Identidad_Admin.Text = "0000-0000-00000";
             // 
             // Lbl_Nombre_admin
             // 
             this.Lbl_Nombre_admin.AutoSize = true;
-            this.Lbl_Nombre_admin.Location = new System.Drawing.Point(52, 18);
+            this.Lbl_Nombre_admin.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Nombre_admin.Location = new System.Drawing.Point(67, 33);
             this.Lbl_Nombre_admin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Nombre_admin.Name = "Lbl_Nombre_admin";
-            this.Lbl_Nombre_admin.Size = new System.Drawing.Size(249, 17);
+            this.Lbl_Nombre_admin.Size = new System.Drawing.Size(0, 21);
             this.Lbl_Nombre_admin.TabIndex = 1;
-            this.Lbl_Nombre_admin.Text = "Nombre1 Nombre2 Apellido1 Apelido2";
-            // 
-            // pbxUsuario
-            // 
-            this.pbxUsuario.Image = ((System.Drawing.Image)(resources.GetObject("pbxUsuario.Image")));
-            this.pbxUsuario.Location = new System.Drawing.Point(308, 18);
-            this.pbxUsuario.Margin = new System.Windows.Forms.Padding(4);
-            this.pbxUsuario.Name = "pbxUsuario";
-            this.pbxUsuario.Size = new System.Drawing.Size(133, 92);
-            this.pbxUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxUsuario.TabIndex = 0;
-            this.pbxUsuario.TabStop = false;
             // 
             // Lbl_Registro_Alum
             // 
             this.Lbl_Registro_Alum.AutoSize = true;
-            this.Lbl_Registro_Alum.Font = new System.Drawing.Font("MS Reference Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Registro_Alum.Location = new System.Drawing.Point(224, 53);
+            this.Lbl_Registro_Alum.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Registro_Alum.Location = new System.Drawing.Point(179, 81);
             this.Lbl_Registro_Alum.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_Registro_Alum.Name = "Lbl_Registro_Alum";
-            this.Lbl_Registro_Alum.Size = new System.Drawing.Size(120, 29);
+            this.Lbl_Registro_Alum.Size = new System.Drawing.Size(197, 49);
             this.Lbl_Registro_Alum.TabIndex = 16;
             this.Lbl_Registro_Alum.Text = "Registro";
             // 
             // Lbl_EIPG
             // 
             this.Lbl_EIPG.AutoSize = true;
-            this.Lbl_EIPG.Font = new System.Drawing.Font("MS Reference Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_EIPG.Location = new System.Drawing.Point(41, 17);
+            this.Lbl_EIPG.Font = new System.Drawing.Font("MS Reference Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_EIPG.Location = new System.Drawing.Point(13, 46);
             this.Lbl_EIPG.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_EIPG.Name = "Lbl_EIPG";
-            this.Lbl_EIPG.Size = new System.Drawing.Size(469, 29);
+            this.Lbl_EIPG.Size = new System.Drawing.Size(560, 35);
             this.Lbl_EIPG.TabIndex = 15;
             this.Lbl_EIPG.Text = "Escuela e Instituto Privado Gualaco";
             // 
@@ -310,7 +296,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.PnlInfo_Usuario.ResumeLayout(false);
             this.PnlInfo_Usuario.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxUsuario)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.error)).EndInit();
             this.ResumeLayout(false);
 
@@ -324,7 +309,6 @@
         private System.Windows.Forms.Label Lbl_Cargo;
         private System.Windows.Forms.Label Lbl_Identidad_Admin;
         private System.Windows.Forms.Label Lbl_Nombre_admin;
-        private System.Windows.Forms.PictureBox pbxUsuario;
         private System.Windows.Forms.Label Lbl_Registro_Alum;
         private System.Windows.Forms.Label Lbl_EIPG;
         private System.Windows.Forms.DataGridView dataGridView1;

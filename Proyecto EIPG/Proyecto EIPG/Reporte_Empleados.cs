@@ -21,6 +21,11 @@ namespace Proyecto_EIPG
         public int i=0;
         String id_usuario,id_contrasena,id_rol, id_estado_civil, id_estado_emp, id_genero_emp, id_empleado, primer_nombre_emp, segundo_nombre_emp, primer_apellido_emp, segundo_apellido_emp, correo, telefono, direccion, titulo, post_grado, experiencia;
 
+        private void Lbl_Nombre_Admin_Click(object sender, EventArgs e)
+        {
+
+        }
+
         //funcion para llenar el datagid con empleados de acuerdo al estado inactivo
         private void rdbn_E_inactivo_CheckedChanged(object sender, EventArgs e)
         {

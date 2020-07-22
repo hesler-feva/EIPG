@@ -124,5 +124,10 @@ namespace Proyecto_EIPG
         {
 
         }
+
+        private void Lbl_Nombre_conta_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
